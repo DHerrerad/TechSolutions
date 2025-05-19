@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>TechSolutions⚡</title>
+  <link rel="icon" type="image/png" href="Imagenes/Favicon.png">
+  <link rel="stylesheet" href="css/estilos.css">
+  <script defer src="js/main.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <!-- Header y navegacion -->
+  <header>
+    <nav>
+      <!-- Logo como enlace al inicio -->
+      <a href="index.html" class="logo-link">
+        <h1>TechSolutions⚡</h1>
+      </a>
+      <!-- Boton desplegable para movil -->
+      <button class="menu-toggle" aria-label="Abrir menú">&#9776;</button>
+      <!-- Menu de navegacion principal -->
+      <ul class="nav-links">
+        <li><a href="index.html"><i class="fas fa-home"></i> Inicio</a></li>
+        <li><a href="servicios.html"><i class="fas fa-cogs"></i> Servicios</a></li>
+        <li><a href="portafolio.html"><i class="fas fa-briefcase"></i> Portafolio</a></li>
+        <li><a href="nosotros.html"><i class="fas fa-users"></i> Nosotros</a></li>
+        <li><a href="contacto.html"><i class="fas fa-envelope"></i> Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero principal -->
+  <section class="hero">
+    <h2 id="typewriter">
+      <span id="texto"></span>
+      <span class="cursor"></span>
+    </h2>
+    <p>
+      Desarrollamos software a medida, brindamos soporte técnico y acompañamos la transformación digital de tu empresa.
+    </p>
+    <br>
+    <a href="servicios.html" class="btn">Ver Servicios</a>
+  </section>
+
+  <!-- Caracteristicas -->
+  <section class="seccion-caracteristicas">
+    <div class="contenedor">
+      <h2 class="titulo-seccion">¿Por qué elegirnos?</h2>
+      <div class="caracteristicas-grid">
+        <div class="caracteristica">
+          <i class="fas fa-code icono"></i>
+          <h3>Innovación Tecnológica</h3>
+          <p>Usamos las últimas tecnologías para ofrecer soluciones modernas y escalables.</p>
+        </div>
+        <div class="caracteristica">
+          <i class="fas fa-shield-alt icono"></i>
+          <h3>Seguridad Garantizada</h3>
+          <p>Protegemos tus datos y sistemas con protocolos avanzados de seguridad informática.</p>
+        </div>
+        <div class="caracteristica">
+          <i class="fas fa-headset icono"></i>
+          <h3>Soporte 24/7</h3>
+          <p>Estamos disponibles siempre que nos necesites para resolver cualquier problema.</p>
+        </div>
+        <div class="caracteristica">
+          <i class="fas fa-chart-line icono"></i>
+          <h3>Crecimiento Asegurado</h3>
+          <p>Acompañamos a tu empresa en su crecimiento digital y evolución tecnológica.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Proyectos (Carrusel) -->
+  <section class="seccion-proyectos">
+    <div class="contenedor proyectos-carrusel">
+      <!-- Lado derecho: título y botón -->
+      <div class="carrusel-der">
+        <h2 class="titulo-seccion">Nuestros Proyectos</h2>
+        <p class="proyectos-desc">
+          Creamos soluciones tecnológicas a medida para empresas que quieren crecer y destacar en el mundo digital.
+        </p>
+        <a href="portafolio.html" class="btn">Ver más</a>
+      </div>
+      <!-- Lado izquierdo: carrusel de proyectos -->
+      <div class="carrusel-izq">
+        <button class="carrusel-btn" id="prev-proyecto">&#10094;</button>
+        <div class="carrusel-proyecto">
+          <img id="proyecto-img" src="Imagenes/Img1.png" alt="Proyecto 1">
+          <h3 id="proyecto-titulo">Aplicación de Gestión Hospitalaria🏥</h3>
+          <p id="proyecto-desc">Sistema completo para agendar citas, registrar pacientes y generar reportes.</p>
+        </div>
+        <button class="carrusel-btn" id="next-proyecto">&#10095;</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contactanos -->
+  <section class="llamada-accion">
+    <div class="contenedor">
+      <h2>¿Listo para comenzar?</h2>
+      <p>Trabajemos juntos para llevar tu negocio al siguiente nivel con tecnología de vanguardia.</p>
+      <a href="contacto.html" class="btn">Hablemos ahora</a>
+    </div>
+  </section>
+
+  <!-- Testimonios de clientes -->
+  <section class="seccion-testimonios">
+    <div class="contenedor">
+      <h2 class="titulo-seccion">Lo que dicen nuestros clientes</h2>
+      <div class="testimonios-grid">
+        <div class="testimonio">
+          <img src="Imagenes/Cliente1.png" alt="Foto de Juan Pérez" class="foto-cliente">
+          <p>"TechSolutions transformó nuestra empresa. Su soporte técnico es excepcional."</p>
+          <h4>- Juan Pérez, CEO de Innovatech</h4>
+        </div>
+        <div class="testimonio">
+          <img src="Imagenes/Cliente2.png" alt="Foto de María López" class="foto-cliente">
+          <p>"La atención al cliente es inmejorable. Siempre están ahí para ayudarnos."</p>
+          <h4>- María López, Gerente de Ventas en MarketPro</h4>
+        </div>
+        <div class="testimonio">
+          <img src="Imagenes/Cliente3.png" alt="Foto de Carlos García" class="foto-cliente">
+          <p>"Gracias a TechSolutions, nuestra infraestructura tecnológica es más segura y eficiente."</p>
+          <h4>- Carlos García, CTO de Fintech Solutions</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 TechSolutions. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
